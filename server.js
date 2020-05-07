@@ -1,5 +1,3 @@
-require('dotenv').config({ path: './config.env' });
-require('./src/db/mongoose'); // CONNECT TO DATABASE
 const app = require('./src/app');
 
 // FIRE UP SERVER
